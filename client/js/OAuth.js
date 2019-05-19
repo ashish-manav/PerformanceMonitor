@@ -3,11 +3,11 @@ $("#prodBtn").click(prodLogin);
 $("#sandBtn").click(sandLogin);
 
 var apiVersion = 'v30.0',
-    clientId = '3MVG9iTxZANhwHQuSJa6AuCgpr0YL.cTaAGjmBiKxN825pW8DgZzxFzI2RPaz5AlIhz.hFdrYIIIaKn4v3y1V',
-    loginUrl = 'https://login.salesforce.com/',
-    //redirectURI = "https://toolingapi.herokuapp.com/oauthcallback.html", 
+  //  clientId = '3MVG9iTxZANhwHQuSJa6AuCgpr0YL.cTaAGjmBiKxN825pW8DgZzxFzI2RPaz5AlIhz.hFdrYIIIaKn4v3y1V',
+    clientId = '3MVG9ZL0ppGP5UrBqpqX_5ou.rKpg9JM30ZBw9XTn0PDOQ7PjxACbayomn8dMmNlNbmlxK2ZC5hiIeKNiNtPR',
+    loginUrl = 'https://login.salesforce.com/', 
     redirectURI = "http://localhost:8080/oauthcallback.html", 
-    proxyURL = 'https://toolingapi.herokuapp.com/proxy/',
+    proxyURL = 'http://localhost:8080/proxy/',
     client = new forcetk.Client(clientId, loginUrl, proxyURL);
 
  
